@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>JavaScript Flashcards</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.js"
+      integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+      crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+     <h1>Welcome to Your JavaScript Flashcards!</h1>
+     <p><strong>A food chain</strong> is a linear network of links in a food web starting from producer organism and ending at apex predators. Click on the boxes below to see an example of each</p>
+
+     <div class="row clickable-polar-bear" id="apex-showing">
+      <h2>Polar Bears</h2>
+     </div>
+
+     <div class="row clickable-polar-bear" id="apex-hidden">
+       <p>Polar bears feed almost exclusively on ringed seals and bearded seals. They are also known to eat walrus, beluga whale and bowhead whale carcasses, birds’ eggs, and (rarely) vegetation. Polar bears travel great distances in search of prey.</p>
+       <img src="img/polar-bear.jpg" class="clickable">
+     </div>
+
+     <div class="row clickable-walrus" id="secondary-showing">
+      <h2>Walrus</h2>
+     </div>
+
+     <div class="row clickable-walrus" id="secondary-hidden">
+       <p>Walrus staples include clams, mussels and other bottom dwelling (or benthic) organisms that they locate through their whiskers. They are also known to eat carcasses of young seals when food is scarce.</p>
+       <img src="img/walrus.jpg" class="clickable">
+     </div>
+
+     <div class="row clickable-clams" id="tertiary-showing">
+      <h2>Clams</h2>
+     </div>
+
+     <div class="row clickable-clams" id="tertiary-hidden">
+       <p><strong>Beer-Steamed Clams</strong> - Clams are inexpensive, plentiful, easy to cook, and delicious. And you barely need a recipe—once they open, they’re done.</p>
+       <img src="img/clam.jpeg" class="clickable">
+     </div>
+    </div>
+  </body>
+</html>
